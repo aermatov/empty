@@ -40,5 +40,5 @@ def get_category_en(request):
 
     return render(request, context=context, template_name="base_en.html")
 
-def get_sum():
-    return 1 + 1
+def get_subtraction():
+    return 1 - 1
